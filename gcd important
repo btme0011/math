@@ -1,0 +1,2 @@
+gcd(a,b)=ax+by;
+gcd(a+k,b+k)=gcd(a+k,b-a);
