@@ -1,3 +1,4 @@
 gcd(a,b)=ax+by;
 gcd(a+k,b+k)=gcd(a+k,b-a);
 gcd(a,b)=gcd(a%b,b);
+gcd(a,b)=g -> gcd(a/g,b/g)=1 and then we can apply euler toitent function
