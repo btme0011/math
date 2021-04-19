@@ -1,4 +1,4 @@
-gcd(a,b)=ax+by;
+gcd(a,b)=ax+by;(this can help you with gcd and mod question)
 gcd(a+k,b+k)=gcd(a+k,b-a);
 gcd(a,b)=gcd(a%b,b);
 gcd(a,b)=g -> gcd(a/g,b/g)=1 and then we can apply euler toitent function ->( like in the question how many integers are there from 1 to N having gcd d with N)
