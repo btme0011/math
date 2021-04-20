@@ -1,3 +1,4 @@
+gcd(a,b)=gcd(b,a%b)
 gcd(a,b)=ax+by;(this can help you with gcd and mod question)
 gcd(a+k,b+k)=gcd(a+k,b-a);
 gcd(a,b)=gcd(a%b,b);
